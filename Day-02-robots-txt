@@ -1,1 +1,35 @@
+# Day 02 – robots.txt Practice
 
+## 📅 Date
+17 Feb 2026
+
+## 🛠 Tool / Concept
+robots.txt
+
+## 🎯 Goal of Learning
+Understand how robots.txt works and how it is used in web security and reconnaissance.
+
+## 📚 What I Learned Today
+- What a robots.txt file is
+- How websites use robots.txt to guide search engine crawlers
+- Finding hidden or sensitive paths using robots.txt
+- Importance of robots.txt in reconnaissance (recon phase)
+
+## ⚙️ Practice Done
+- Accessed /robots.txt file on websites
+- Observed allowed and disallowed directories
+- Identified potentially interesting paths for testing
+
+## 🧠 Key Concepts
+- User-agent
+- Disallow
+- Allow
+- Web reconnaissance
+- Information disclosure
+
+## 🔥 My Notes
+robots.txt is publicly accessible and can reveal hidden directories or endpoints.  
+It is useful during the initial information gathering phase in web security testing.
+
+## 🚀 Next Step
+Practice checking robots.txt on different websites and analyze exposed paths.
