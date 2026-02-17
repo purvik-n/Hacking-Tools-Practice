@@ -1,1 +1,37 @@
 
+# Day 03 – DNS Records Practice
+
+## 📅 Date
+17 Feb 2026
+
+## 🛠 Tool / Concept
+DNS Records
+
+## 🎯 Goal of Learning
+Understand how DNS works and how DNS records help in reconnaissance and information gathering.
+
+## 📚 What I Learned Today
+- What DNS is and its role in domain resolution
+- Different types of DNS records
+- How DNS information can reveal infrastructure details
+- Basic DNS enumeration concepts
+
+## ⚙️ Practice Done
+- Checked DNS records of websites
+- Observed IP addresses and mail server details
+- Identified useful information for reconnaissance
+
+## 🧠 Key Concepts
+- A Record
+- AAAA Record
+- CNAME
+- MX Record
+- NS Record
+- TXT Record
+- DNS Enumeration
+
+## 🔥 My Notes
+DNS records provide important information about a target’s infrastructure and are useful during the reconnaissance phase of security testing.
+
+## 🚀 Next Step
+Practice DNS lookup using different domains and compare record types.
