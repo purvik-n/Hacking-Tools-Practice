@@ -1,1 +1,36 @@
 
+# Day 01 – Burp Suite Practice
+
+## 📅 Date
+17 Feb 2026
+
+## 🛠 Tool
+Burp Suite
+
+## 🎯 Goal of Learning
+Understand how Burp Suite is used to intercept and analyze web traffic.
+
+## 📚 What I Learned Today
+- Introduction to Burp Suite interface
+- Setting up proxy in browser
+- Intercepting HTTP requests
+- Viewing request and response data
+- Basic understanding of web application testing
+
+## ⚙️ Practice Done
+- Configured browser proxy with Burp Suite
+- Captured and inspected web requests
+- Observed headers, parameters, and responses
+
+## 🧠 Key Concepts
+- Proxy
+- HTTP Request / Response
+- Interception
+- Web traffic analysis
+
+## 🔥 My Notes
+Burp Suite helps in understanding how websites communicate with servers.  
+Learning to intercept requests is the foundation for web security testing.
+
+## 🚀 Next Step
+Practice modifying requests and explore Repeater tool.
