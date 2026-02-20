@@ -1,1 +1,34 @@
+# Day 05 – WAFW00F Practice
 
+## 📅 Date
+17 Feb 2026
+
+## 🛠 Tool
+WAFW00F
+
+## 🎯 Goal of Learning
+Understand how to detect the presence of a Web Application Firewall (WAF) on a target website.
+
+## 📚 What I Learned Today
+- What a Web Application Firewall (WAF) is
+- Why WAF detection is important in reconnaissance
+- How WAFW00F identifies different WAF technologies
+- Basic command usage of WAFW00F
+
+## ⚙️ Practice Done
+- Ran WAFW00F against test websites
+- Observed detected WAF types
+- Analyzed how responses change when a WAF is present
+
+## 🧠 Key Concepts
+- Web Application Firewall (WAF)
+- Firewall Detection
+- HTTP Response Analysis
+- Reconnaissance Phase
+
+## 🔥 My Notes
+Before testing a web application, it is important to check if a WAF is protecting it.  
+WAFW00F helps identify the type of firewall, which affects testing strategies.
+
+## 🚀 Next Step
+Study how different WAFs block malicious requests and understand basic bypass concepts (theory only).
