@@ -1,1 +1,36 @@
+# Day 04 – DNS Enumeration Practice
 
+## 📅 Date
+17 Feb 2026
+
+## 🛠 Tool / Concept
+DNS Enumeration
+
+## 🎯 Goal of Learning
+Understand how DNS enumeration is used during the reconnaissance phase to gather information about a target domain.
+
+## 📚 What I Learned Today
+- What DNS enumeration means
+- How attackers gather DNS-related information
+- Identifying subdomains
+- Extracting DNS record details
+- Understanding target infrastructure through DNS data
+
+## ⚙️ Practice Done
+- Performed DNS lookups on target domains
+- Checked A, AAAA, MX, NS, and TXT records
+- Explored subdomain discovery techniques
+
+## 🧠 Key Concepts
+- DNS Enumeration
+- Subdomain Discovery
+- Zone Transfer (basic concept)
+- Information Gathering
+- Reconnaissance Phase
+
+## 🔥 My Notes
+DNS enumeration is a critical step in reconnaissance.  
+It helps reveal subdomains, mail servers, name servers, and other infrastructure-related information that can be useful in security testing.
+
+## 🚀 Next Step
+Practice automated DNS enumeration using security tools and understand zone transfer risks.
