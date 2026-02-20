@@ -1,1 +1,43 @@
 
+# Day 07 – Security Hardware Research (Hacking Gadgets)
+
+## 📅 Date
+17 Feb 2026
+
+## 🛠 Topic
+Security Testing Hardware Devices (Research)
+
+## 🎯 Goal of Learning
+Understand how security testing hardware devices are used in penetration testing and cybersecurity research.
+
+## 📚 What I Learned Today
+- Introduction to hardware-based security tools
+- How physical devices are used in ethical hacking
+- Importance of hardware tools in red team operations
+- Risks and ethical considerations of using such devices
+
+## 🔎 Devices Studied
+- WiFi Pineapple
+- USB Rubber Ducky
+- LAN Turtle
+- Keylogger devices
+- RFID cloning tools
+- Flipper Zero
+- Bash Bunny
+- Packet sniffing hardware tools
+- Hardware key injection tools
+- Network implant devices
+
+## 🧠 Key Concepts
+- Physical Security Testing
+- Red Team Tools
+- Social Engineering Hardware
+- USB Attack Vectors
+- Wireless Network Attacks (Theory)
+
+## 🔥 My Notes
+Hardware-based security tools are powerful and must only be used in authorized environments.
+Understanding how these devices work helps defenders protect systems from physical and wireless attacks.
+
+## 🚀 Next Step
+Study defensive strategies to protect against hardware-based attacks.
