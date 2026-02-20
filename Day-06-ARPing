@@ -1,1 +1,36 @@
+# Day 06 – ARPing Practice (Live Host Identification)
 
+## 📅 Date
+17 Feb 2026
+
+## 🛠 Tool
+ARPing
+
+## 🎯 Goal of Learning
+Understand how ARP-based scanning works and how to identify live hosts in a local network.
+
+## 📚 What I Learned Today
+- What ARP (Address Resolution Protocol) is
+- Difference between ARP scan and ICMP ping
+- How ARPing helps in identifying active devices
+- Why ARP scanning works well in local networks
+
+## ⚙️ Practice Done
+- Ran ARPing on local network IP ranges
+- Identified active/live hosts
+- Observed MAC addresses of detected devices
+- Compared ARP response vs normal ping response
+
+## 🧠 Key Concepts
+- ARP Protocol
+- MAC Address
+- Local Network Scanning
+- Live Host Discovery
+- Layer 2 Communication
+
+## 🔥 My Notes
+ARPing is useful for detecting live hosts inside a local network.  
+Unlike ICMP ping, ARP-based detection works even if ping is blocked.
+
+## 🚀 Next Step
+Combine ARP-based scanning with other network reconnaissance tools to map network devices.
