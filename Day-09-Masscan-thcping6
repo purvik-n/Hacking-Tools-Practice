@@ -1,0 +1,15 @@
+Masscan:
+- Fast port scanner
+- Only shows open ports
+- Requires root
+- Use --rate to control speed
+
+thc-ping6:
+- IPv6 testing tool
+- Part of THC toolkit
+- Used in IPv6 penetration testing
+
+Important:
+Masscan = Speed
+Nmap = Details
+IPv6 security is often ignored
