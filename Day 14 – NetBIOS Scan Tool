@@ -1,0 +1,53 @@
+Day 14 – NetBIOS Scan Tool
+
+NetBIOS = Network Basic Input/Output System
+Used for communication between devices in local networks.
+
+Runs on:
+Port 137 → NetBIOS Name Service (NBNS)
+Port 138 → NetBIOS Datagram Service
+Port 139 → NetBIOS Session Service
+
+Purpose:
+- Name resolution (computer names)
+- File & printer sharing (older Windows networks)
+- Device discovery in LAN
+
+Why NetBIOS is Important in Cybersecurity:
+- Often enabled in internal networks
+- Can leak system information
+- Useful for enumeration phase
+
+Common NetBIOS Scanning Tools:
+
+1. nbtstat (Windows)
+nbtstat -A <target_ip>
+
+2. nbtscan (Linux / Kali)
+nbtscan <target_ip>
+nbtscan 192.168.1.0/24
+
+3. Nmap NetBIOS Scripts
+nmap -p 137 --script nbstat <target>
+
+Information You Can Get:
+- Computer name
+- Workgroup name
+- Logged-in user
+- MAC address
+
+Security Risks:
+- Information disclosure
+- Null session attacks
+- Lateral movement opportunities
+
+Difference:
+NetBIOS = Older name service protocol
+SMB = File sharing protocol (often works with NetBIOS in older systems)
+
+Important Concept:
+NetBIOS enumeration is part of internal network reconnaissance.
+
+Reminder:
+Mostly useful in LAN penetration testing.
+Less common in modern internet-facing systems.
