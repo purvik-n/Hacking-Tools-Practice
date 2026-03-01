@@ -1,0 +1,49 @@
+Day 16 – Fsociety Tool
+
+Fsociety = Automated penetration testing toolkit
+Inspired by the TV show "Mr. Robot"
+
+Purpose:
+- Combines multiple hacking tools into one framework
+- Used for automation in reconnaissance & exploitation
+
+Category:
+Post-exploitation / Automation framework
+
+What Fsociety Includes:
+- Information gathering tools
+- Password attacks
+- Wireless attacks
+- Exploitation tools
+- Sniffing & spoofing tools
+- Web hacking tools
+
+Common Integrated Tools:
+Nmap
+Metasploit
+Hydra
+Aircrack-ng
+Nikto
+SQLmap
+
+Why Fsociety is Important:
+- Helps beginners understand tool categories
+- Automates multiple tasks
+- Good for lab practice
+- Shows structure of penetration workflow
+
+Risks:
+- Not recommended for blind usage
+- Requires understanding of each tool
+- Can cause legal issues if misused
+
+Important Concept:
+Automation ≠ Skill
+Real cybersecurity requires understanding what each tool does internally.
+
+Ethical Reminder:
+Use only in lab environment (Kali VM, TryHackMe, Hack The Box).
+Never scan real-world systems without permission.
+
+Key Learning:
+Fsociety teaches how different tools connect in the hacking lifecycle.
