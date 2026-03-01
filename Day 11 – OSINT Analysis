@@ -1,0 +1,54 @@
+Day 11 – OSINT (Open Source Intelligence) Analysis
+
+OSINT = Collecting intelligence from publicly available sources.
+
+Used in:
+- Cybersecurity investigations
+- Threat intelligence
+- Social engineering prevention
+- Digital footprint analysis
+
+Common OSINT Sources:
+- Search engines (Google, Bing)
+- Social media platforms
+- Public records
+- GitHub repositories
+- WHOIS databases
+- Shodan
+- News websites
+- Paste sites
+
+Important Google Dorks:
+site:example.com
+filetype:pdf
+intitle:"index of"
+inurl:admin
+cache:example.com
+
+Popular OSINT Tools:
+theHarvester → Email & subdomain gathering
+Maltego → Relationship mapping
+Recon-ng → Automated reconnaissance
+Shodan → Internet-connected devices
+Whois → Domain information
+Amass → Subdomain enumeration
+
+OSINT Process:
+1. Define target
+2. Passive information gathering
+3. Data correlation
+4. Analysis
+5. Reporting
+
+Key Concept:
+OSINT is passive reconnaissance.
+No direct interaction with target systems.
+
+Why OSINT is Important:
+- Reduces active attack noise
+- Identifies attack surface
+- Reveals exposed data
+- Helps in social engineering testing
+
+Reminder:
+Always use OSINT ethically and legally.
