@@ -1,0 +1,52 @@
+Day 17 – MaskPhish Tool
+
+MaskPhish = Phishing URL masking tool
+Used to create shortened and disguised phishing links.
+
+Purpose:
+- Social engineering testing
+- Awareness demonstrations
+- Educational lab practice
+
+How It Works:
+- Takes original phishing URL
+- Masks it with a legitimate-looking domain
+- Generates a shortened social engineering link
+
+Example Concept:
+Original: http://malicious-site.com/login
+Masked: https://google.com-login-security-update.com
+
+Why It Is Dangerous:
+- Tricks users into clicking
+- Used in credential harvesting attacks
+- Exploits human psychology
+
+Common Use Case in Pentesting:
+- Red team social engineering simulations
+- Phishing awareness campaigns
+- Testing employee awareness
+
+Important Concepts:
+Phishing = Human-based attack
+Social Engineering = Manipulating human trust
+
+Risks:
+- Illegal if used without permission
+- Can cause serious legal consequences
+- Considered cybercrime outside lab/testing scope
+
+Defensive Measures:
+- Always verify domain names carefully
+- Check HTTPS certificate
+- Enable multi-factor authentication (MFA)
+- Avoid clicking unknown links
+- Use email filtering systems
+
+Key Learning:
+Human vulnerability is often weaker than technical security.
+Cybersecurity is not just about systems — it is about people.
+
+Ethical Reminder:
+Only study for awareness and defense.
+Never use for real-world phishing attacks.
