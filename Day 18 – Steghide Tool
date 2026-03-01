@@ -1,0 +1,58 @@
+Day 18 – Steghide Tool
+
+Steghide = Steganography tool
+Used to hide secret data inside image or audio files.
+
+Concept:
+Steganography = Hiding data inside another file
+(Not encryption, but concealment)
+
+Supported File Types:
+- JPEG
+- BMP
+- WAV
+- AU
+
+Purpose:
+- Hide sensitive data
+- CTF challenges
+- Digital forensics practice
+- Data concealment testing
+
+Basic Commands:
+
+Hide a file inside image:
+steghide embed -cf image.jpg -ef secret.txt
+
+Extract hidden data:
+steghide extract -sf image.jpg
+
+View file info:
+steghide info image.jpg
+
+Important Terms:
+Carrier file → Image/audio file used to hide data
+Embedded file → Hidden file
+Passphrase → Password used to protect hidden data
+
+How It Works:
+- Modifies least significant bits (LSB) of file
+- Human eye cannot detect the change
+
+Why It Is Important in Cybersecurity:
+- Used in data exfiltration
+- Used in malware communication
+- Common in CTF & forensic investigations
+
+Detection Methods:
+- File size comparison
+- Hash comparison
+- Steganalysis tools
+
+Difference:
+Encryption → Scrambles data
+Steganography → Hides existence of data
+
+Key Concept:
+If encryption hides content,
+steganography hides existence.
