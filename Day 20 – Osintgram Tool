@@ -1,0 +1,57 @@
+Day 20 – Osintgram Tool
+
+Osintgram = OSINT tool for Instagram analysis
+Used to gather publicly available information from Instagram accounts.
+
+Category:
+OSINT (Open Source Intelligence)
+
+Purpose:
+- Collect publicly available profile data
+- Analyze digital footprint
+- Social media investigation (authorized use only)
+
+What It Can Gather:
+- Username information
+- Followers & following list
+- Hashtags used
+- Tagged posts
+- Captions & comments
+- Publicly available contact info
+- Profile picture download
+- Stories (if public)
+
+How It Works:
+- Uses Instagram public data
+- Automates information gathering
+- Organizes data for analysis
+
+Why It Is Important in Cybersecurity:
+- Used in social engineering investigations
+- Helps identify exposed personal information
+- Useful in threat intelligence
+- Helps understand digital footprint risks
+
+Risks:
+- Privacy invasion if misused
+- Can be illegal without authorization
+- Violates platform policies if abused
+
+Defensive Awareness:
+- Keep accounts private
+- Limit personal information in bio
+- Avoid sharing sensitive details
+- Be careful with location tagging
+- Review followers regularly
+
+Key Concept:
+OSINT does not hack accounts.
+It collects publicly available data.
+
+Important Reminder:
+Ethical use only.
+Never use for stalking, harassment, or unauthorized investigation.
+
+Lesson Learned:
+Social media can reveal more information than expected.
+Digital footprint management is part of cybersecurity.
