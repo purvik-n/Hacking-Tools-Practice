@@ -1,0 +1,58 @@
+Day 13 – SMB (Server Message Block) Protocol
+
+SMB = Server Message Block
+Used for file and printer sharing over a network.
+
+Runs on:
+Port 445 (TCP)
+Older versions also used Port 139
+
+Purpose:
+- File sharing
+- Printer sharing
+- Network resource access
+- Remote administration
+
+Main Versions:
+SMBv1 → Old, insecure (vulnerable)
+SMBv2 → Improved performance
+SMBv3 → Secure, encrypted communication
+
+Why SMB is Important in Cybersecurity:
+- Common target in internal networks
+- Misconfigured SMB can expose sensitive files
+- Used in lateral movement attacks
+
+Famous SMB Vulnerability:
+EternalBlue → Exploited SMBv1
+Used in WannaCry ransomware attack
+
+Common Enumeration Commands:
+
+Using Nmap:
+nmap -p 445 --script smb-os-discovery <target>
+nmap -p 445 --script smb-enum-shares <target>
+
+Using smbclient:
+smbclient -L //<target> -N
+
+Important Terms:
+Share → Folder shared over network
+Anonymous login → Access without credentials
+Null session → SMB login without username/password
+
+Security Risks:
+- Open shares
+- Weak passwords
+- SMBv1 enabled
+- No signing/encryption
+
+Defensive Measures:
+- Disable SMBv1
+- Enable SMB signing
+- Strong passwords
+- Restrict access with firewall rules
+
+Key Concept:
+SMB is heavily used inside corporate networks.
+It is a common entry point during penetration testing.
