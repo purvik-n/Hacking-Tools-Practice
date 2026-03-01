@@ -1,0 +1,54 @@
+Day 19 – Seeker Tool
+
+Seeker = OSINT-based geolocation tool
+Used for gathering target device location information through phishing techniques.
+
+Category:
+Social engineering / OSINT tool
+
+Purpose:
+- Collect geolocation data
+- Gather device information
+- Educational security awareness testing
+
+How It Works (High-Level):
+- Creates a fake webpage
+- Sends link to target
+- If target opens link and grants permission,
+  the tool collects location data from browser
+
+Information It Can Collect:
+- Latitude & Longitude
+- Device type
+- Browser information
+- IP address
+- Operating system
+
+Important Concept:
+Seeker depends on human interaction.
+User must open the link and allow location access.
+
+Why It Is Dangerous:
+- Invades privacy
+- Can track physical location
+- Used in stalking or malicious attacks
+
+Why It Is Studied in Cybersecurity:
+- Understanding social engineering risks
+- Learning about privacy vulnerabilities
+- Awareness training
+
+Defensive Measures:
+- Do not click unknown links
+- Disable automatic location sharing
+- Review browser permissions
+- Use VPN for privacy
+- Be cautious on social media
+
+Legal Warning:
+Using Seeker without consent is illegal.
+Only use in lab or authorized testing environment.
+
+Key Learning:
+Human trust and browser permissions are major security weaknesses.
+Security is not just technical — it is behavioral.
