@@ -1,0 +1,51 @@
+Day 12 – Netmask (Subnet Mask)
+
+Netmask = Defines which part of an IP address is Network ID and Host ID.
+
+Purpose:
+- Divides network into subnets
+- Controls IP address allocation
+- Determines number of hosts in a network
+
+IPv4 Structure:
+IP Address = Network Portion + Host Portion
+
+Example:
+IP: 192.168.1.10
+Subnet Mask: 255.255.255.0
+CIDR Notation: /24
+
+Common Subnet Masks:
+255.0.0.0      → /8
+255.255.0.0    → /16
+255.255.255.0  → /24
+255.255.255.128 → /25
+
+CIDR Meaning:
+/24 → 24 bits for network, 8 bits for host
+
+Host Formula:
+2^n - 2
+n = number of host bits
+
+Example:
+/24 → 8 host bits
+2^8 - 2 = 254 usable hosts
+
+Why "-2"?
+1 IP = Network address
+1 IP = Broadcast address
+
+Important Terms:
+Network Address → First IP in subnet
+Broadcast Address → Last IP in subnet
+Usable Hosts → Between network & broadcast
+
+Why Netmask is Important in Hacking:
+- Helps identify target network range
+- Used in scanning (Nmap, Masscan)
+- Required for subnetting attacks & enumeration
+
+Remember:
+More network bits → Less hosts
+More host bits → More hosts
