@@ -1,0 +1,61 @@
+Day 15 – Introduction to Enumeration
+
+Enumeration = Active information gathering process
+It is the phase after scanning in penetration testing.
+
+Definition:
+Enumeration is the process of extracting detailed information from a target system.
+
+Difference:
+Scanning → Finds open ports
+Enumeration → Identifies services, users, shares, versions, and vulnerabilities
+
+Goal of Enumeration:
+- Identify users
+- Identify services & versions
+- Discover shared resources
+- Extract system information
+- Find attack surface
+
+Common Services Enumerated:
+- SMB
+- NetBIOS
+- FTP
+- SSH
+- DNS
+- SNMP
+- LDAP
+
+Common Enumeration Tools:
+Nmap (scripts)
+enum4linux
+smbclient
+nbtscan
+rpcclient
+theHarvester
+
+Example Nmap Enumeration:
+nmap -sV <target>
+nmap -A <target>
+nmap --script vuln <target>
+
+Why Enumeration is Critical:
+- Most important phase in hacking
+- Reveals misconfigurations
+- Identifies weak credentials
+- Helps in privilege escalation
+
+Important Concept:
+The more information collected,
+the easier the exploitation phase becomes.
+
+Penetration Testing Flow:
+1. Reconnaissance
+2. Scanning
+3. Enumeration
+4. Exploitation
+5. Post-exploitation
+
+Key Mindset:
+Enumeration is about being patient and detailed.
+Small information leaks can lead to full system compromise.
